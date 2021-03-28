@@ -137,3 +137,36 @@ git pull <远程主机名> <远程分支名>:<本地分支名>
 将远程主机 () 的 () 分支拉取过来，与本地的 () 分支合并
 
 <video src="D:\gal\000不剧透.mp4"></video>
+
+![鸥酱我喜欢你](C:\Users\刘忠楷\Desktop\QQ图片20210328185816.jpg)
+
+[bilibili]: https://www.bilibili.com/
+
+```c
+#include<stdio.h>
+int recursion(int n);
+
+void main(){
+
+​    int n;
+​    printf("输入你的数值:");
+​    scanf("%d",&n);
+
+}
+
+int recursion(int n){
+    int recur = 0;
+
+​    if (recur < n)
+
+​    {
+
+​        recursion(recur + 1);
+
+​    }
+​    printf("第%d的和为%d",n, recursion(n));
+}
+
+
+```
+
