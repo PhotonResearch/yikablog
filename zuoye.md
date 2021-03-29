@@ -170,3 +170,27 @@ int recursion(int n){
 
 ```
 
+```java
+public class Switchdemo{
+    public static void main(String args[]){
+        int x = 5, y = 7;
+        switch (x * y){
+            case 10 :
+                System.out.println("10");
+                break;
+            case 20 :
+                System.out.println("20");
+                break;
+            case 30 :
+                System.out.println("30");
+                break;
+            default :
+                System.out.println("以上没有匹配的")；
+        }
+    }
+}
+```
+
+[ASCLL对照表]: https://tool.oschina.net/commons?type=4
+
+爱你，鸥酱，mua~
