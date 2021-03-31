@@ -194,3 +194,15 @@ public class Switchdemo{
 [ASCLL对照表]: https://tool.oschina.net/commons?type=4	"这是连接"
 
 爱你，鸥酱，mua~
+
+```c
+#include <stdio.h>
+int main () {
+    int var_runoob = 10;
+    int *p;              // 定义指针变量   
+    p = &var_runoob;   
+    printf("var_runoob 变量的地址： %p\n", p);   
+    return 0;
+}
+```
+
