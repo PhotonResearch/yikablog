@@ -206,3 +206,23 @@ int main () {
 }
 ```
 
+```c
+#include <stdio.h>
+ 
+enum DAY
+{
+      MON=1, TUE, WED, THU, FRI, SAT, SUN
+};
+ 
+int main()
+{
+    enum DAY day;
+    day = WED;
+    printf("%d",day);
+    return 0;
+}
+```
+
+希望鸥酱感冒早日好起来哦，鸥酱要多注意点身体，多喝点热水，多出出汗，让病毒早日排除去，我期待着鸥酱好起来，继续给我布置任务哦！
+
+我这几天先看看指针和Linux命令，再看看怎么弄博客.
