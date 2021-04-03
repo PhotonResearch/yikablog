@@ -261,3 +261,39 @@ int main()
 - :wq   保存并退出.
 - :q!      放弃修改，强制退出.
 - :f         显示文件名称、总行.
+
+```c
+#include<stdio.h>
+void miyakoCal(int, int, int, int, int, char);                                  //   声明函数
+void main() {                                                                   //   主函数入口
+    int x = 34, y = 65, z = 20 , l = 5 ,w = 3;
+    char d = 'a';
+    miyakoCal(x, y, z, l, w, d);
+
+}
+void miyakoCal(int x, int y, int z,int lenth, int width, char direct) {         //  miyakoCal：喵都计算器
+    printf("输入的Minecraft坐标为：[坐标]= %d,%d,%d\n", x, y, z);
+    printf("输入的展开半径为：[width]= %d\n", width);
+    printf("输入的展开长度为：[length]= %d\n", lenth);
+    switch (direct)
+    {
+        case 'a':
+            printf("靠X轴正半轴展开......\n");
+            break;
+        case 'b':
+            printf("靠X轴负半轴展开......\n");
+            break;
+        case 'c':
+            printf("靠Z轴正半轴展开......\n");
+            break;
+        case 'd':
+            printf("靠Z轴负半轴展开......\n");
+            break;
+        default:
+            printf("不属于任何一种条件，程序即将退出......\n");
+            break;
+    }
+}
+```
+
+明天回老家（）
