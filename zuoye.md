@@ -22,10 +22,6 @@ void interchange(int u, int v){
 	
 ```
 
-链接：https://pan.baidu.com/s/1UYastFfc3Iao7rk0LmZTSA 
-提取码：huqg 
-复制这段内容后打开百度网盘手机App，操作更方便哦--来自百度网盘超级会员V4的分享
-
 1.我们为什么需要git？
 
 答：它能为开源项目免费提供git储存。
@@ -137,8 +133,6 @@ git pull <远程主机名> <远程分支名>:<本地分支名>
 将远程主机 () 的 () 分支拉取过来，与本地的 () 分支合并
 
 <video src="D:\gal\000不剧透.mp4"></video>
-
-![鸥酱我喜欢你](C:\Users\刘忠楷\Desktop\QQ图片20210328185816.jpg)
 
 [bilibili]: https://www.bilibili.com/
 
@@ -296,4 +290,27 @@ void miyakoCal(int x, int y, int z,int lenth, int width, char direct) {         
 }
 ```
 
-明天回老家（）
+```c
+#include <stdio.h>
+ 
+const int MAX = 3;
+ 
+int main ()
+{
+   int  var[] = {10, 100, 200};
+   int  i, *ptr;
+ 
+   ptr = var;
+   for ( i = 0; i < MAX; i++)
+   {
+ 
+      printf("存储地址：var[%d] = %p\n", i, ptr );
+      printf("存储值：var[%d] = %d\n", i, *ptr );
+ 
+      ptr++;
+   }
+   return 0;
+}//提问：为啥（ptr = var）里面没有用到&呢，虽然用了之后还可以运行，"message": "assignment to 'int *' from incompatible pointer type 'int (*)
+}
+```
+
